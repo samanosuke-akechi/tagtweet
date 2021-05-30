@@ -1,5 +1,5 @@
 class TweetsController < ApplicationController
-  def inddex
+  def index
     @tweets = Tweet.all.order(created_at: :desc)
   end
 
