@@ -19,8 +19,8 @@ class TweetsController < ApplicationController
 
   def search
     return nil if params[:keyword] == ""
-    tag = Tag.where(['name Like ?', "%#{params[:keyword]}%"])
-    rendor json:{ keyword: tag }
+    tag = Tag.where(['name LIKE ?', "%#{params[:keyword]}%"])
+    render json:{ keyword: tag }
   end
 
   private
