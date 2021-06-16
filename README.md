@@ -1,24 +1,4 @@
-# README
-
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+# アプリケーション概要
+TECH CAMPのカリキュラムでタグ付け機能・タグ候補検索機能の実装を学習するために実装したアプリケーション。  
+機能実装をJavascriptをメインに行っている。  
+デプロイはしていない。
